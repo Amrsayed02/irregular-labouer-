@@ -1,57 +1,58 @@
-🚀 Irregular Labor Management API
+# 🚀 Irregular Labor Management API
 
-A robust RESTful API built using Laravel, designed to manage irregular labor workflows including workers, clients, jobs, payments, and reviews.
+A scalable RESTful API built with Laravel, designed to manage irregular labor workflows including workers, clients, jobs, payments, and reservations.
 
-This API provides a scalable backend solution that can be integrated with any frontend (Web / Mobile).
+---
 
-🔑 Key Features
-🔐 Authentication System (Register / Login / Logout)
-👷 Worker Management (CRUD)
-🧑‍💼 Client Management (CRUD)
-💼 Job Management System
-💳 Payment & Payment Types Handling
-⭐ Reviews System
-💬 Chat System between users
-📦 Structured JSON API Responses (using custom traits)
-🔄 Full CRUD Operations across all modules
-🛠️ Tech Stack
-Framework: Laravel (PHP)
-Authentication: Laravel Sanctum / JWT
-Database: MySQL
-Architecture: RESTful API + MVC
-Tools: Postman, Git, XAMPP
-📂 API Modules
-Auth (Register / Login / Logout / User Info)
-Workers
-Clients
-Jobs
-Payments
-Payment Types
-Reviews
-Chat System
-📡 Sample Endpoints
-POST   /api/register
-POST   /api/login
+## 📖 Overview
 
-GET    /api/workers
-POST   /api/worker
-POST   /api/worker/{id}
+This project provides a complete backend solution for managing real-world labor systems.  
+It supports authentication, role-based access, job management, and API-driven workflows.
 
-GET    /api/clients
-POST   /api/client
+---
 
-GET    /api/jobs
-POST   /api/job
+## 🔥 Key Features
 
-GET    /api/payments
-POST   /api/payment
+- 🔐 Authentication System (Register / Login / Logout)
+- 👤 Worker & Client Management
+- 💼 Job Management System
+- 📅 Reservation System
+- 💳 Payment Handling
+- 🛡️ Role-Based Access Control (RBAC)
+- 📡 RESTful API Architecture
 
-🎯 Project Purpose
+---
 
-This project demonstrates my ability to:
+## 🧠 What This Project Demonstrates
 
-Build scalable RESTful APIs using Laravel
-Design clean backend architecture
-Handle authentication and authorization
-Work with relational databases
-Structure APIs for real-world business logic
+- Building scalable RESTful APIs using Laravel  
+- Implementing authentication and authorization  
+- Designing clean backend architecture  
+- Handling real-world business logic  
+- Managing relational databases (MySQL)  
+
+---
+
+## 🏗️ Tech Stack
+
+- PHP (Laravel)
+- MySQL
+- REST APIs
+- MVC Architecture
+- Postman (API Testing)
+
+---
+
+## 📊 Project Highlights
+
+- Built 15+ API endpoints  
+- Managed multiple entities (workers, clients, jobs, payments)  
+- Implemented authentication & RBAC  
+- Structured scalable backend system  
+
+---
+
+## 🔗 API Endpoints (Sample)
+
+### 🔐 Authentication
+
