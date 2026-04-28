@@ -1,4 +1,3 @@
-📄 README.md (نسخة احترافية قوية)
 🚀 Irregular Labor Management API
 
 A robust RESTful API built using Laravel, designed to manage irregular labor workflows including workers, clients, jobs, payments, and reviews.
